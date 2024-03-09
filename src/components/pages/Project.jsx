@@ -13,7 +13,7 @@ export default class Project extends Component {
                   <div className="row portfolio-item" key={`${item.name}`}>
                     <div className="col item-wrap">
                       <a href={item.deployedLink}>
-                        <img src={`${item.imgurl}`} className="item-img"/>
+                        <img src={`${window.location.origin}/${item.imgurl}`} className="item-img"/>
                         <div className="info-bar">
                           <div className="portfolio-item-info">
                             <h5>{item.name}</h5>
