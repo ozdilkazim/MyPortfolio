@@ -8,7 +8,6 @@ import Resume from './components/pages/Resume';
 import Project from './components/pages/Project';
 import Contact from './components/pages/Contact';
 import myResume from '/myresume';
-import imgPath from './img';
 
 class App extends Component {
   render() {

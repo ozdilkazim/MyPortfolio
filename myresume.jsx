@@ -85,7 +85,8 @@ const myResume = {
       }
     ],
     "project":[
-      {        
+      {  
+        "id":0,     
         "name":"No Natural Stone Web Page",
         "description":"Website",
         "imgurl":"/src/img/nonaturalstone.jpg",
@@ -93,6 +94,7 @@ const myResume = {
         "deployedLink":"https://www.nonaturalstone.com"
       },
       {
+        "id":1,  
         "name":"Team Profile Generator",
         "description":"Team Profile Generator by using Inquirer and Node.js",
         "imgurl":"/src/img/team-profile-generator.jpg",
@@ -100,6 +102,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/Team-Profile-Generator/output/team.html"
       },
       {
+        "id":2,  
         "name":"Movies for Munchies (Group Project)",
         "description":"Automatic movie recommendation based on the user's meal. Web-Server APIs and Javascript",  
         "imgurl":"/src/img/movies-for-munchies.png",
@@ -107,6 +110,7 @@ const myResume = {
         "deployedLink":""
       },
       {
+        "id":3,  
         "name":"Waether Dasboard",
         "description":"Weather Dashboard by using API, JS, JQuery, dayJs",
         "imgurl":"/src/img/weather-dashboard.jpg",
@@ -114,6 +118,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/WeatherDashboard"
       },
       {
+        "id":4,  
         "name":"Bootstrap Portfolio",
         "description":"An online portfolio project for Bootcamp challange activity.",
         "imgurl":"/src/img/bootstrap-portfolio.jpg",
@@ -121,11 +126,28 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/Bootstrap-Portfolio/"
       },
       {
+        "id":5,  
         "name":"WorkDay Scheduler",
         "description":"Workday Scheduler by using JS, JQuery, dayJs",
         "imgurl":"/src/img/workday-scheduler.jpg",
         "github":"https://github.com/ozdilkazim/WorkDayScheduler",
         "deployedLink":"https://ozdilkazim.github.io/WorkDayScheduler/"
+      },
+      {
+        "id":6,  
+        "name":"Password Generator",
+        "description":"Password Generator using JS",
+        "imgurl":"/src/img/password-generator.jpg",
+        "github":"https://github.com//",
+        "deployedLink":""
+      },
+      {
+        "id":7,  
+        "name":"Readme Generator",
+        "description":"Readme Generator using Inquirer and Node.js",
+        "imgurl":"/src/img/readme-generator.jpg",
+        "github":"https://github.com//",
+        "deployedLink":""
       }
     ],
   }
