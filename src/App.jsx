@@ -7,7 +7,7 @@ import About from './components/pages/About';
 import Resume from './components/pages/Resume';
 import Project from './components/pages/Project';
 import Contact from './components/pages/Contact';
-import myResume from '/myResume';
+import myResume from '/myresume';
 
 class App extends Component {
   render() {
