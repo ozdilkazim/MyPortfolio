@@ -9,11 +9,12 @@ export default class Project extends Component {
             <div id="portfolio-grid" key="1" className="portfolio-grid">
             { 
               myResume.project && myResume.project.map((item)=>{
+                const imgUrl = new URL(item.imgurl, import.meta.url).href
                 return(
                   <div className="row portfolio-item" key={`${item.name}`}>
                     <div className="col item-wrap">
                       <a href={item.deployedLink}>
-                        <img src={`${window.location.origin}/${item.imgurl}`} className="item-img"/>
+                        <img src={imgUrl} className="item-img"/>
                         <div className="info-bar">
                           <div className="portfolio-item-info">
                             <h5>{item.name}</h5>
