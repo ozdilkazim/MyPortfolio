@@ -88,42 +88,42 @@ const myResume = {
       {        
         "name":"No Natural Stone Web Page",
         "description":"Website",
-        "imgurl":"img/nonaturalstone.jpg",
+        "imgurl":"./img/nonaturalstone.jpg",
         "github":"-",
         "deployedLink":"https://www.nonaturalstone.com"
       },
       {
         "name":"Team Profile Generator",
         "description":"Team Profile Generator by using Inquirer and Node.js",
-        "imgurl":"img/team-profile-generator.jpg",
+        "imgurl":"./img/team-profile-generator.jpg",
         "github":"https://github.com/ozdilkazim/Team-Profile-Generator",
         "deployedLink":"https://ozdilkazim.github.io/Team-Profile-Generator/output/team.html"
       },
       {
         "name":"Movies for Munchies (Group Project)",
         "description":"Automatic movie recommendation based on the user's meal. Web-Server APIs and Javascript",  
-        "imgurl":"img/movies-for-munchies.png",
+        "imgurl":"./img/movies-for-munchies.png",
         "github":"",
         "deployedLink":""
       },
       {
         "name":"Waether Dasboard",
         "description":"Weather Dashboard by using API, JS, JQuery, dayJs",
-        "imgurl":"img/weather-dashboard.jpg",
+        "imgurl":"./img/weather-dashboard.jpg",
         "github":"https://github.com/ozdilkazim/WeatherDashboard",
         "deployedLink":"https://ozdilkazim.github.io/WeatherDashboard"
       },
       {
         "name":"Bootstrap Portfolio",
         "description":"An online portfolio project for Bootcamp challange activity.",
-        "imgurl":"img/bootstrap-portfolio.jpg",
+        "imgurl":"./img/bootstrap-portfolio.jpg",
         "github":"https://github.com/ozdilkazim/Bootstrap-Portfolio",
         "deployedLink":"https://ozdilkazim.github.io/Bootstrap-Portfolio/"
       },
       {
         "name":"WorkDay Scheduler",
         "description":"Workday Scheduler by using JS, JQuery, dayJs",
-        "imgurl":"img/workday-scheduler.jpg",
+        "imgurl":"./img/workday-scheduler.jpg",
         "github":"https://github.com/ozdilkazim/WorkDayScheduler",
         "deployedLink":"https://ozdilkazim.github.io/WorkDayScheduler/"
       }
