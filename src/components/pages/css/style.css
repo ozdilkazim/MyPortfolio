@@ -1,0 +1,37 @@
+#root {
+    margin-top:100px;
+}
+
+#header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid var(--black2);
+    -webkit-box-shadow: 0px 3px 30px 0px var(--black2);
+    -moz-box-shadow: 0px 3px 30px 0px var(--black2);
+    box-shadow: 0px 3px 30px 0px var(--black2);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+form.nav-form {
+    display:flex;
+}
+input[type="search"].nav-search {
+    margin-right:20px;
+}
+
+.profile-picture {
+    width:70%;
+    border:1px solid #dadada;
+    border-radius: 50%;
+}
