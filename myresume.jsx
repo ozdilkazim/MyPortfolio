@@ -111,6 +111,14 @@ const myResume = {
       },
       {
         "id":3,  
+        "name":"Readme Generator",
+        "description":"Readme Generator using Inquirer and Node.js",
+        "imgurl":"/src/img/readme-generator.jpg",
+        "github":"https://github.com//",
+        "deployedLink":""
+      },
+      {
+        "id":4,  
         "name":"Waether Dasboard",
         "description":"Weather Dashboard by using API, JS, JQuery, dayJs",
         "imgurl":"/src/img/weather-dashboard.jpg",
@@ -118,7 +126,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/WeatherDashboard"
       },
       {
-        "id":4,  
+        "id":5,  
         "name":"Bootstrap Portfolio",
         "description":"An online portfolio project for Bootcamp challange activity.",
         "imgurl":"/src/img/bootstrap-portfolio.jpg",
@@ -126,7 +134,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/Bootstrap-Portfolio/"
       },
       {
-        "id":5,  
+        "id":6,  
         "name":"WorkDay Scheduler",
         "description":"Workday Scheduler by using JS, JQuery, dayJs",
         "imgurl":"/src/img/workday-scheduler.jpg",
@@ -134,18 +142,10 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/WorkDayScheduler/"
       },
       {
-        "id":6,  
+        "id":7,  
         "name":"Password Generator",
         "description":"Password Generator using JS",
         "imgurl":"/src/img/password-generator.jpg",
-        "github":"https://github.com//",
-        "deployedLink":""
-      },
-      {
-        "id":7,  
-        "name":"Readme Generator",
-        "description":"Readme Generator using Inquirer and Node.js",
-        "imgurl":"/src/img/readme-generator.jpg",
         "github":"https://github.com//",
         "deployedLink":""
       }
