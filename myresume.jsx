@@ -89,7 +89,7 @@ const myResume = {
         "id":0,     
         "name":"No Natural Stone Web Page",
         "description":"Website",
-        "imgurl":"../../../public/img/nonaturalstone.jpg",
+        "imgurl":"nonaturalstone.jpg",
         "github":"-",
         "deployedLink":"https://www.nonaturalstone.com"
       },
@@ -97,7 +97,7 @@ const myResume = {
         "id":1,  
         "name":"Team Profile Generator",
         "description":"Team Profile Generator by using Inquirer and Node.js",
-        "imgurl":"../../../public/img/team-profile-generator.jpg",
+        "imgurl":"team-profile-generator.jpg",
         "github":"https://github.com/ozdilkazim/Team-Profile-Generator",
         "deployedLink":"https://ozdilkazim.github.io/Team-Profile-Generator/output/team.html"
       },
@@ -105,7 +105,7 @@ const myResume = {
         "id":2,  
         "name":"Movies for Munchies (Group Project)",
         "description":"Automatic movie recommendation based on the user's meal. Web-Server APIs and Javascript",  
-        "imgurl":"../../../public/img/movies-for-munchies.png",
+        "imgurl":"movies-for-munchies.png",
         "github":"",
         "deployedLink":""
       },
@@ -113,7 +113,7 @@ const myResume = {
         "id":3,  
         "name":"Readme Generator",
         "description":"Readme Generator using Inquirer and Node.js",
-        "imgurl":"../../../public/img/readme-generator.jpg",
+        "imgurl":"readme-generator.jpg",
         "github":"https://github.com//",
         "deployedLink":""
       },
@@ -121,7 +121,7 @@ const myResume = {
         "id":4,  
         "name":"Waether Dasboard",
         "description":"Weather Dashboard by using API, JS, JQuery, dayJs",
-        "imgurl":"../../../public/img/weather-dashboard.jpg",
+        "imgurl":"weather-dashboard.jpg",
         "github":"https://github.com/ozdilkazim/WeatherDashboard",
         "deployedLink":"https://ozdilkazim.github.io/WeatherDashboard"
       },
@@ -129,7 +129,7 @@ const myResume = {
         "id":5,  
         "name":"Bootstrap Portfolio",
         "description":"An online portfolio project for Bootcamp challange activity.",
-        "imgurl":"../../../public/img/bootstrap-portfolio.jpg",
+        "imgurl":"bootstrap-portfolio.jpg",
         "github":"https://github.com/ozdilkazim/Bootstrap-Portfolio",
         "deployedLink":"https://ozdilkazim.github.io/Bootstrap-Portfolio/"
       },
@@ -137,7 +137,7 @@ const myResume = {
         "id":6,  
         "name":"WorkDay Scheduler",
         "description":"Workday Scheduler by using JS, JQuery, dayJs",
-        "imgurl":"../../../public/img/workday-scheduler.jpg",
+        "imgurl":"workday-scheduler.jpg",
         "github":"https://github.com/ozdilkazim/WorkDayScheduler",
         "deployedLink":"https://ozdilkazim.github.io/WorkDayScheduler/"
       },
@@ -145,7 +145,7 @@ const myResume = {
         "id":7,  
         "name":"Password Generator",
         "description":"Password Generator using JS",
-        "imgurl":"../../../public/img/password-generator.jpg",
+        "imgurl":"password-generator.jpg",
         "github":"https://github.com//",
         "deployedLink":""
       }
