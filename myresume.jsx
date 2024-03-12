@@ -1,5 +1,5 @@
 const myResume = {
-    "imagebaseurl":"https://media.licdn.com/dms/image/C4D03AQE_DsgGLqRmgQ/profile-displayphoto-shrink_800_800/0/1564511279374?e=1715212800&v=beta&t=tggf8SiKvsOZdacJfL59pKkXY6LaMtlbHndMkBzmNuA",
+    "imagebaseurl":"img/kazim.jpeg",
     "name": "Kazim Ozdil",
     "role": "Frontend Developer / Structural Engineer",
     "linkedinId":"ozdilkazim",

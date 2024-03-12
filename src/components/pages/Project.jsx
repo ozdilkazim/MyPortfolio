@@ -16,7 +16,7 @@ export default class Project extends Component {
                   <div className="row portfolio-item" id={`projct-${item.id}`} key={item.id}>
                     <div className="col item-wrap">
                       <a href={item.deployedLink}>
-                        <img src={`img/${item.imgurl}`} className="item-img"/>
+                        <img src={`img/${item.imgurl}`} className="item-img"/> 
                         <div className="info-bar">
                           <div className="portfolio-item-info">
                             <h5>{item.name}</h5>

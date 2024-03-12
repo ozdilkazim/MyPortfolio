@@ -16,15 +16,13 @@ class App extends Component {
         <header className="container-fluid bg-light" id="header">
           <Header />
         </header>
-        <div className="container">
           <Routes>
             <Route path="/" element={<Home myResume={myResume}/>} />
             <Route path="/about" element={<About myResume={myResume}/>} />
             <Route path="/resume" element={<Resume myResume={myResume}/>} />
             <Route path="/project" element={<Project myResume={myResume}/>} />
             <Route path="/contact" element={<Contact myResume={myResume}/>} />
-          </Routes>     
-        </div>
+          </Routes>
         <footer className="container-fluid" id="footer">     
           <Footer myResume={myResume} />
         </footer>
