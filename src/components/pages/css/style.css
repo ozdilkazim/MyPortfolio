@@ -16,6 +16,7 @@
 
 #root section:nth-last-child(2) {
     margin-top:100px;
+    min-height:750px
 }
 
 /* Header Section */
