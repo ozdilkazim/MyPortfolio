@@ -21,7 +21,7 @@ Change the resume.jsx as desired and check by running 'npm run dev' before deplo
 ## License
 MIT License
 ## Contributing
-Many thanks to Jung to get rid of me from legacy codes.
+Many thanks to Jung for geting me rid of the legacy codes.
 ## Tests
 No test instructions.
 ## Questions

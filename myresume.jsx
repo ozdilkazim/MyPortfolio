@@ -52,7 +52,7 @@ const myResume = {
         "Achievements":"Manager of a 8-people team with vary diciplines; architectural, structural, electrical, mechanical members."
       }
     ],
-    "skillsDescription":"Fronend Developing Skills",
+    "skillsDescription":"Frontend Developing Skills",
     "skills":[
       {
         "skillname":"HTML5",
