@@ -2,7 +2,8 @@ const myResume = {
     "imagebaseurl":"img/kazim.jpeg",
     "name": "Kazim Ozdil",
     "role": "Frontend Developer / Structural Engineer",
-    "linkedinId":"ozdilkazim",
+    "linkedinId":"kazim-ozdil",
+    "githubId":"ozdilkazim",
     "roleDescription": "A passionate front-end web developer with a keen eye for creating visually stunning and intuitive user experiences.",
     "socialLinks":[
         {
@@ -54,34 +55,44 @@ const myResume = {
     "skillsDescription":"Fronend Developing Skills",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5",
+        "progress":"100"
       },
       {
-        "skillname":"CSS"
+        "skillname":"CSS",
+        "progress":"98"
       },
       {
-        "skillname":"JavaScript"
+        "skillname":"JavaScript",
+        "progress":"90"
       },
       {
-        "skillname":"Git"
+        "skillname":"Git",
+        "progress":"95"
       },
       {
-        "skillname":"Github"
+        "skillname":"Github",
+        "progress":"97%"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Reactjs",
+        "progress":"82"
       },
       {
-        "skillname":"Nodejs"
+        "skillname":"Nodejs",
+        "progress":"89"
       },
       {
-        "skillname":"Web APIs"
+        "skillname":"Web APIs",
+        "progress":"93"
       },
       {
-        "skillname":"ServerAPIs"
+        "skillname":"ServerAPIs",
+        "progress":"86"
       },
       {
-        "skillname":"Test-Driven Development"
+        "skillname":"Test-Driven Development",
+        "progress":"92"
       }
     ],
     "project":[
@@ -105,7 +116,7 @@ const myResume = {
         "id":2,  
         "name":"Movies for Munchies (Group Project)",
         "description":"Automatic movie recommendation based on the user's meal. Web-Server APIs and Javascript",  
-        "imgurl":"movies-for-munchies.png",
+        "imgurl":"movies-for-munchies.jpg",
         "github":"",
         "deployedLink":""
       },
