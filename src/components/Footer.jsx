@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-export default class Footer extends Component {
-  render() {
-    let myResume = this.props.myResume;
+import myResume from '/myresume';
+export default function Footer() {
     return (
       <div className="container">
        <div className="row">
           <div className="social-links">
             <ul className="list-group">
               {
-                myResume.socialLinks && myResume.socialLinks.map((item)=>{
+                myResume.socialLinks.map((item)=>{
                   return(
                     <li key={`${item.name}`} className="list-group-item">
                       <a href={item.url}>
@@ -23,5 +21,4 @@ export default class Footer extends Component {
        </div>
       </div>
     );
-  }
 }

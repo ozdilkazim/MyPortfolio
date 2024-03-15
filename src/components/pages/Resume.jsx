@@ -1,19 +1,14 @@
-import React, { Component } from 'react';
-export default  class Resume extends Component {
-  render() {
-    let myResume = this.props.myResume;
+import myResume from '/myresume';
+export default function Resume () {
     return (
-      <section id="resume" className="container-fluid">
-
+      <section id="resume" className="container resume">
          <div className="row education">
-
             <div className="col">
                <h1><span>Education</span></h1>
             </div>
-
             <div className="col">
               {
-                myResume.education && myResume.education.map((item)=>{
+               myResume.education.map((item)=>{
                   return(
                     <div className="row">
                        <div className="col">
@@ -38,7 +33,7 @@ export default  class Resume extends Component {
 
             <div className="col">
               {
-                myResume.work && myResume.work.map((item) => {
+                myResume.work.map((item) => {
                   return(
                     <div className="row">
                        <div className="col">
@@ -58,25 +53,17 @@ export default  class Resume extends Component {
               }
             </div> 
          </div>
-
-
          <div className="row">
-
             <div className="col">
                <h1><span>Skills</span></h1>
             </div>
-
             <div className="col">
-
-               <p>
-               {myResume.skillsDescription}
-               </p>
+               <p>{myResume.skillsDescription}</p>
 
    				<div className="row">
-
    				   <ul className="col skills">
                 {
-                  myResume.skills && myResume.skills.map((item) => {
+                  myResume.skills.map((item) => {
                     return(
                       <li>
                       <span className={`skill-counter ${item.skillname.toLowerCase()}`}>
@@ -96,5 +83,4 @@ export default  class Resume extends Component {
 
       </section>
     );
-  }
 }

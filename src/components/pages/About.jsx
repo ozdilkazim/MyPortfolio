@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-export default class About extends Component {
-  render() {
-    let myResume = this.props.myResume;
+
+import myResume from '/myresume';
+export default function About() {
     return (
       <section className="container about" id="about">
          <div className="row content">
@@ -25,4 +24,3 @@ export default class About extends Component {
       </section>
     );
   }
-}

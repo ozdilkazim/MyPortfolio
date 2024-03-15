@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,28 +6,23 @@ import About from './components/pages/About';
 import Resume from './components/pages/Resume';
 import Project from './components/pages/Project';
 import Contact from './components/pages/Contact';
-import myResume from '/myresume';
 
-class App extends Component {
-  render() {
+export default function App() {
     return (
       <Router>     
         <header className="container-fluid bg-light" id="header">
           <Header />
         </header>
           <Routes>
-            <Route path="/" element={<Home myResume={myResume}/>} />
-            <Route path="/about" element={<About myResume={myResume}/>} />
-            <Route path="/resume" element={<Resume myResume={myResume}/>} />
-            <Route path="/project" element={<Project myResume={myResume}/>} />
-            <Route path="/contact" element={<Contact myResume={myResume}/>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/resume" element={<Resume/>} />
+            <Route path="/project" element={<Project/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         <footer className="container-fluid" id="footer">     
-          <Footer myResume={myResume} />
+          <Footer/>
         </footer>
       </Router>
     );
   }
-}
-
-export default App;

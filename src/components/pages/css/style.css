@@ -86,7 +86,7 @@ input[type="search"].nav-search {
     font-size: 100px;
 }
 
-.about {
+#root section:nth-last-child(2) {
     margin-top:100px;
 }
 

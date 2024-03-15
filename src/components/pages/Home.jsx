@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-export default class Home extends Component {
-  render() {
-    let myResume = this.props.myResume;
+import myResume from '/myresume';
+export default function Home() {
     return (
       <section className="container-fluid home">
         <div className="container jumbotron">
@@ -17,4 +15,3 @@ export default class Home extends Component {
       </section>
     );
   }
-}

@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
-
-export default class Project extends Component {
-  render() {
-    let myResume = this.props.myResume;        
-
+import myResume from '/myresume';
+export default function Project() {
     return (
       <section className="container" id="portfolio">
         <div className="row">
           <div className="col">
             <div id="portfolio-grid" key="1" className="portfolio-grid">
             { 
-              myResume.project && myResume.project.map((item)=>{
+              myResume.project.map((item)=>{
                 return(
     
                   <div className="row portfolio-item" id={`projct-${item.id}`} key={item.id}>
@@ -37,5 +33,4 @@ export default class Project extends Component {
         </div>
       </section>
         );
-  }
 }
