@@ -117,16 +117,16 @@ const myResume = {
         "name":"Movies for Munchies (Group Project)",
         "description":"Automatic movie recommendation based on the user's meal. Web-Server APIs and Javascript",  
         "imgurl":"movies-for-munchies.jpg",
-        "github":"",
-        "deployedLink":""
+        "github":"https://github.com/ozdilkazim/Project-1",
+        "deployedLink":"https://prangchira.github.io/Project-1/"
       },
       {
         "id":3,  
         "name":"Readme Generator",
         "description":"Readme Generator using Inquirer and Node.js",
         "imgurl":"readme-generator.jpg",
-        "github":"https://github.com//",
-        "deployedLink":""
+        "github":"https://github.com/ozdilkazim/ReadMe-Generator",
+        "deployedLink":"https://drive.google.com/file/d/1Wf4dTX50LvqyNGnsMpzkLl6yuGMcj4ez/view"
       },
       {
         "id":4,  
@@ -157,8 +157,8 @@ const myResume = {
         "name":"Password Generator",
         "description":"Password Generator using JS",
         "imgurl":"password-generator.jpg",
-        "github":"https://github.com//",
-        "deployedLink":""
+        "github":"https://github.com/ozdilkazim/PasswordGenerator",
+        "deployedLink":"https://ozdilkazim.github.io/PasswordGenerator/"
       }
     ],
   }
