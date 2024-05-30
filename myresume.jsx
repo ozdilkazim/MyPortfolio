@@ -118,7 +118,7 @@ const myResume = {
         "description":"React + Vite Portfolio Page",
         "imgurl":"myportfolio.jpg",
         "github":"https://github.com/ozdilkazim/MyPortfolio",
-        "deployedLink":"https://ozdilkazim.netlify.app/"
+        "deployedLink":"https://kazimozdil.netlify.app/"
       },
       {
         "id":3,  
