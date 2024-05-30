@@ -98,6 +98,14 @@ const myResume = {
     "project":[
       {  
         "id":0,     
+        "name":"codeKrafters Shopping Page",
+        "description":"React + Vite Webpage with Theme Options",
+        "imgurl":"codeKrafters.jpg",
+        "github":"https://github.com/ozdilkazim/codeKrafters",
+        "deployedLink":"https://codekrafters.netlify.app/"
+      },
+      {  
+        "id":1,     
         "name":"No Natural Stone Web Page",
         "description":"Website",
         "imgurl":"nonaturalstone.jpg",
@@ -105,7 +113,15 @@ const myResume = {
         "deployedLink":"https://www.nonaturalstone.com"
       },
       {
-        "id":1,  
+        "id":2,  
+        "name":"React + Vite Portfolio Page",
+        "description":"React + Vite Portfolio Page",
+        "imgurl":"myportfolio.jpg",
+        "github":"https://github.com/ozdilkazim/MyPortfolio",
+        "deployedLink":"https://ozdilkazim.netlify.app/"
+      },
+      {
+        "id":3,  
         "name":"Team Profile Generator",
         "description":"Team Profile Generator by using Inquirer and Node.js",
         "imgurl":"team-profile-generator.jpg",
@@ -113,7 +129,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/Team-Profile-Generator/output/team.html"
       },
       {
-        "id":2,  
+        "id":4,  
         "name":"Movies for Munchies (Group Project)",
         "description":"Automatic movie recommendation based on the user's meal. Web-Server APIs and Javascript",  
         "imgurl":"movies-for-munchies.jpg",
@@ -121,7 +137,7 @@ const myResume = {
         "deployedLink":"https://prangchira.github.io/Project-1/"
       },
       {
-        "id":3,  
+        "id":5,  
         "name":"Readme Generator",
         "description":"Readme Generator using Inquirer and Node.js",
         "imgurl":"readme-generator.jpg",
@@ -129,7 +145,7 @@ const myResume = {
         "deployedLink":"https://drive.google.com/file/d/1Wf4dTX50LvqyNGnsMpzkLl6yuGMcj4ez/view"
       },
       {
-        "id":4,  
+        "id":6,  
         "name":"Waether Dasboard",
         "description":"Weather Dashboard by using API, JS, JQuery, dayJs",
         "imgurl":"weather-dashboard.jpg",
@@ -137,7 +153,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/WeatherDashboard"
       },
       {
-        "id":5,  
+        "id":7,  
         "name":"Bootstrap Portfolio",
         "description":"An online portfolio project for Bootcamp challange activity.",
         "imgurl":"bootstrap-portfolio.jpg",
@@ -145,7 +161,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/Bootstrap-Portfolio/"
       },
       {
-        "id":6,  
+        "id":8,  
         "name":"WorkDay Scheduler",
         "description":"Workday Scheduler by using JS, JQuery, dayJs",
         "imgurl":"workday-scheduler.jpg",
@@ -153,7 +169,7 @@ const myResume = {
         "deployedLink":"https://ozdilkazim.github.io/WorkDayScheduler/"
       },
       {
-        "id":7,  
+        "id":9,  
         "name":"Password Generator",
         "description":"Password Generator using JS",
         "imgurl":"password-generator.jpg",
